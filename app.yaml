@@ -1,0 +1,13 @@
+application: brice-walker-site
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+handlers:
+
+- url: /
+  static_files: www/index.html
+  upload: www/index.html
+
+- url: /
+  static_dir: www
